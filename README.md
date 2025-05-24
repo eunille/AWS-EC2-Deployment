@@ -55,27 +55,26 @@ rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e "ssh -i
 1. **Create the Service File**
    ```bash
    sudo vim /etc/systemd/system/myapp.service
+   
    ```
 
 2. **Paste the Following Configuration:**
    ```ini
-  [Unit]
-Description=NoteAlone API
-After=network.target
-
-[Service]
-User=ubuntu
-WorkingDirectory=/home/ubuntu/app
-ExecStart=/usr/bin/node /home/ubuntu/app/index.js
-Restart=always
-Environment=NODE_ENV=production
-EnvironmentFile=/home/ubuntu/app/.env
-StandardOutput=journal
-StandardError=journal
-SyslogIdentifier=myapp
-
-[Install]
-WantedBy=multi-user.target
+   [Unit]
+   Description=NoteAlone API
+   After=network.target
+   [Service]
+   User=ubuntu
+   WorkingDirectory=/home/ubuntu/app
+   ExecStart=/usr/bin/node /home/ubuntu/app/index.js
+   Restart=always
+   Environment=NODE_ENV=production
+   EnvironmentFile=/home/ubuntu/app/.env
+   StandardOutput=journal
+   StandardError=journal
+   SyslogIdentifier=myapp
+   [Install]
+   WantedBy=multi-user.target
    ```
 
 3. **Enable & Start the Service**
