@@ -310,7 +310,6 @@ The service file specified `EnvironmentFile=/home/ubuntu/app/.env`, but the `.en
   ```
   PORT=5000
   JWT_SECRET=evolisto
-  DATABASE_URL=postgres://yunil:your_secure_password@localhost:5432/notealone
   ```
 - Set appropriate permissions:
   ```bash
