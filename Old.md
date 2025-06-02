@@ -1,4 +1,4 @@
-# 🚀 Deploying Full Stack Apps to AWS EC2 with SQL Databases
+# 🚀 Deploying Full Stack Apps to AWS EC2 with SQL Databases This is an old Documentation
 
 This guide walks you through deploying a full stack Node.js app to an AWS EC2 instance, setting up PostgreSQL, running your app as a systemd service, and using Caddy as a reverse proxy with HTTPS support.
 
