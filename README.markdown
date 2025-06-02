@@ -445,5 +445,6 @@ The app tried to connect using `notealone_user`, which didn’t exist in Postgre
 - **Database User**: We settled on using the `yunil` PostgreSQL user (a superuser) for simplicity. For better security, consider creating a dedicated user with limited privileges in production.
 - **Environment Variables**: The `.env` file must be manually created or copied to the EC2 instance if excluded during `rsync`.
 - **Service Management**: Use `sudo systemctl reset-failed` to clear `start-limit-hit` errors during debugging.
+- **Used Cadaddy And Namecheap for Domain Used Vercel**: .
 
 ---
