@@ -449,7 +449,7 @@ The app tried to connect using `notealone_user`, which didn’t exist in Postgre
 ---
 
 ## 📌 TechStack and Tools Used
-- **ReactTS**: For the frontend
-- **Environment Variables**: The `.env` file must be manually created or copied to the EC2 instance if excluded during `rsync`.
-- **Service Management**: Use `sudo systemctl reset-failed` to clear `start-limit-hit` errors during debugging.
+- **ReactTS**: Frontend
+- **ExpressJS**: Backend
+- **Postgres Sequalize**: Database
 - **Used Cadaddy And Namecheap for Domain Used Vercel**: Cost 115 pesos.
