@@ -452,4 +452,4 @@ The app tried to connect using `notealone_user`, which didn’t exist in Postgre
 - **ReactTS**: Frontend
 - **ExpressJS**: Backend
 - **Postgres Sequalize**: Database
-- **Used Cadaddy And Namecheap for Domain Used Vercel**: Cost 115 pesos.
+- **Grok**: AI Model Provider
