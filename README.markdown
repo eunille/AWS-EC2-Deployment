@@ -1,7 +1,6 @@
 # 🚀 Deploying Full Stack Apps to AWS EC2 with Postgres Sequalize
 
 This guide walks you through deploying a full stack Node.js app to an AWS EC2 instance, setting up PostgreSQL, running your app as a systemd service, and using Caddy as a reverse proxy with HTTPS support.
-
 ---
 
 ## 🛠️ EC2 Instance Setup
@@ -448,3 +447,9 @@ The app tried to connect using `notealone_user`, which didn’t exist in Postgre
 - **Used Cadaddy And Namecheap for Domain Used Vercel**: Cost 115 pesos.
 
 ---
+
+## 📌 TechStack and Tools Used
+- **ReactTS**: For the frontend
+- **Environment Variables**: The `.env` file must be manually created or copied to the EC2 instance if excluded during `rsync`.
+- **Service Management**: Use `sudo systemctl reset-failed` to clear `start-limit-hit` errors during debugging.
+- **Used Cadaddy And Namecheap for Domain Used Vercel**: Cost 115 pesos.
