@@ -453,3 +453,4 @@ The app tried to connect using `notealone_user`, which didn’t exist in Postgre
 - **ExpressJS**: Backend
 - **Postgres Sequalize**: Database
 - **Grok**: AI Model Provider
+- **Figma**: UI Design
